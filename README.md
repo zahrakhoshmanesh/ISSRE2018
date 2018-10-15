@@ -1,6 +1,7 @@
 # ISSRE2018 Memphis, TN October, 15-18
 ## My plan
- - Monday(Morning Session)  
+ - Monday(Morning Session)
+   - Doctoral Symposium  
  - Monday (Afternoon Session)
  - Tuesday (Morning Session)
  - Tuesday(Afternoon Session)
@@ -8,6 +9,12 @@
  - Wednesday (Afternoon Session)
  - Thursday (Morning Session)
  - Thursday (Afternoon Session)
+
+
+### Keynote: Having the cake and eating it (Mladen Vouk)
+
+
+
 
 
 Classroom 227 , Monday, October 15th, 2:00PM - 5:30PM (3:30PM-4:00 Coffee break),
