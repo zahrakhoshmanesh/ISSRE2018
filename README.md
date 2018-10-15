@@ -1,9 +1,16 @@
 # ISSRE2018 Memphis, TN October, 15-18
 ## My plan
- - Monday(Morning Session)
-  -
+ - Monday(Morning Session)  
  - Monday (Afternoon Session)
-   - Monday, October 15th, 2:00PM - 5:30PM (3:30PM-4:00 Coffee break),
+ - Tuesday (Morning Session)
+ - Tuesday(Afternoon Session)
+ - Wednesday (Morning Session)
+ - Wednesday (Afternoon Session)
+ - Thursday (Morning Session)
+ - Thursday (Afternoon Session)
+
+
+Classroom 227 , Monday, October 15th, 2:00PM - 5:30PM (3:30PM-4:00 Coffee break),
 **Tutorial 2: Anomaly Detection in Networks.**
 
 Speaker: **Veena Mendiratta (Nokia Bell Labs, USA)**
