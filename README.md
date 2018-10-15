@@ -11,7 +11,83 @@
  - Thursday (Afternoon Session)
 
 
-### Keynote: Having the cake and eating it (Mladen Vouk)
+#### Keynote: Having the cake and eating it (Mladen Vouk)
+talking about pursuing work in university vs. industry
+- professional begging
+- staying in academy
+  - start-up
+  - administration
+
+#### Safety Analysis for highly automated driving. Tobias Schmid
+
+- highly automated Systems
+- failsafe
+   - fail-silent
+   - fail operational, fail-degraded
+     - redundant architecture
+- common cause failure
+- qualitative approach lack applicability and standards
+  - creating checklist structure
+  - deriving a methodical process based on the literature
+  - validation
+     - case study
+     - validation by field datasets
+     - identification of common cause failure
+- quantification
+  - old : related to 1980 nuclear planet
+  - analyzing failure of failure datasets
+  - common cause are established in other industries
+  - corellating vehicle charactericts and common cause environment
+  - identifying of necessary independence
+
+  summary
+
+  - fail-operational affords Systems
+  -
+
+
+#### Testing Extract-Transform-Load Process in Data Warehouse Systems. Hajar Homayouni
+
+- testing
+  - data quality testing
+   - expert based
+  - balancing tests
+   -
+- how to detect constraint violation that are missed by domain experts?
+- how to automated
+- data quality test approaches
+- proposed balancing test approach
+- evaluating :
+  - previously detected by existing tool vs. newly detected
+  - metrics for balancing :
+    - number of faults
+    - total timely
+- detect undetected faults,
+- newly detected faults are faulty by unsupervised approaches
+   - use unsupervised clustering to group newly detected fault based on their similarity
+   - ask domain experts to validate each group of faults
+- want to genralize and reduced domain base approach : unsupervised
+
+#### Software Reliability Assessment: Modeling and Algorithms. Vidhyas Nagaraju
+
+- SRGM: software reliability growth models
+-  framework for heteregenous single changepoint software reliability growth models
+- changepoint and coevoriate
+- before and after change point :
+  - applied ECM algorithm to identify paramete estimate
+  - online changepoint analysis is demonestrated
+  - heteregenous models characterize 6 out of 10 failures
+  - SERAT( software reliability tool in R)
+
+
+
+
+
+#### Enhancing Security and Reliability for Smart-* Systems' Architectures. Florian Hofer
+
+
+
+
 
 
 
