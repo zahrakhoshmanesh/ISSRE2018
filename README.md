@@ -121,4 +121,73 @@ Anamoly detection
  - distributed approach for anamoly detection in intrusion Detection
  - change point Detection
  - "detecting and predicting outages in mobile networks wth log data" by Gurbani
- 
+ - self-organizing map: unsupervised neural networks Algorithms
+ - another paper by Veena Mendiratta unsupervised approach for anomaly Detection
+
+### Tuesday
+ - key Keynote
+   - Jennifer yates
+
+#### Enhancing customer experience through machine learning by Jennifer
+reliability for networks
+
+**_network design for reliability_**
+  - redundant capacity built into network to deal with failures
+  - complex planning to understand failure modes, identity capacity required
+  - protocol with very fast failover
+- software defined network(STN)
+  - commodity hardware are cheap but not reliable
+  - solution : software to manage resilency
+- software control : ONAP
+- policy learning
+ - offline ONAP control loop policy learning
+   - data extraction and cleaning - signature learning - signature validation - deploy signature
+ - Online closed loop learning -reinforcement learning
+ - service quality management
+    - fault, performance and service metrics and alarms service paths - > quality management analytics - >detect localize and resolve silent failure & quantify customer impact of network issues
+- reduce energy consumption without impacting customer experience
+
+open problem :
+ONAP need more recovery and monitoring
+- data integrity
+- transactions
+- microservices and analytics
+- policy learning
+- use cases
+- underestanding customer experience
+- ml applications for enhancing reliability and customer experience
+- optimize energy saving whilst maintaining customer experience
+- ONAP application
+
+
+### Research paper
+
+#### Fully Automated HTML and Javascript Rewriting for Constructing a Self-healing Web Proxy. Thomas Durieux (INRIA), Youssef Hamadi (LIX) and Martin Monperrus (KTH).
+
+Repair Strategy
+
+- java script Strategy
+  - HTTP/HTTPS
+  - HTML Element Creator
+  - Library Injector
+- General Strategy
+
+
+#### Robust and Rapid Adaption for Concept Drift in Software System Anomaly Detection. Minghua Ma (Tsinghua University), Shenglin Zhang (Nankai University), Dan Pei (Tsinghua University), Xin Huang and Hongwei Dai (Sogou Inc)
+
+- concept Drift
+- step wise
+- challenges
+  - scalability
+  - roboutnes and adaption delay
+- detection and semi automated classification
+
+#### Run-time Reliability Estimation of Microservice Architectures. Roberto Pietrantuono, Stefano Russo and Antonio Guerriero (University of Naples Federico II)​
+
+- MSA microsoft system Architectures
+-
+
+#### Fast Track Presentation
+
+**Evaluation & Construction of Covering Arrays utilizing prior information**
+by Ryan Lekivetz
