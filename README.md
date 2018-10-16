@@ -191,3 +191,26 @@ Repair Strategy
 
 **Evaluation & Construction of Covering Arrays utilizing prior information**
 by Ryan Lekivetz
+
+- covering Arrays
+- prior information
+- weight coverage
+
+**predicting software defect based on the cognitive error theory**
+- human error prediction
+- ATM example
+
+** Software Reliability Evaluation Method based on a software network ** by
+
+- module reliability risk:
+  - module complexity
+    - structural
+    - code complexity
+
+ - module change related
+
+ last talk:
+ - anti patterns
+ - Resilience pattern example : circuit breaker
+ - chaos engineering
+ - relation between resilence pattern, anti pattern and fault injection
