@@ -214,3 +214,90 @@ by Ryan Lekivetz
  - Resilience pattern example : circuit breaker
  - chaos engineering
  - relation between resilence pattern, anti pattern and fault injection
+
+#### Tuesday, October 16th, 4:00PM - 6:00PM (2 hours), R3: Reliability, Security and Safety Analysis
+
+Session Chair: Tadashi Dohi
+
+**Online Model-based Testing Under Uncertainty. Matteo Camilli (University of Milan), Angelo Gargantini and Patrizia Scandurra (University of Bergamo)​**
+
+-
+
+
+
+Reliability Evaluation of Functionally Equivalent Simulink PID Controller Implementations. Kai Ding, Andrey Morozov and Klaus Janschek (TU Dresden)​
+
+A Natural Language Programming Approach for Requirements-based Security Testing. Phu X. Mai, Fabrizio Pastore, Arda Goknil and Lionel Briand (University of Luxembourg)
+
+Safe-AR: Reducing Risk While Augmenting Reality (WAP paper). Robyn Lutz (Iowa State University)
+
+
+
+#### Wednesday, October 17th, 9:00 - 10:30am
+
+When Software Reliability Engineering Meets Artificial Intelligence
+
+Michael R. Lyu
+
+Professor and Chairman Computer Science & Engineering Department, The Chinese University of Hong Kong
+
+www.cse.cuhk.edu.hk/lyu
+
+Abstract:
+
+“Software is eating the world, but A.I. is going to eat software.” We have already witnessed software engineering shaping every last facet of our 21st century existence. We currently see the coming of A.I. storms from the horizon. In this talk I will try to connect A.I. with Software Reliability Engineering (SRE). On one hand, A. I. techniques, empowered by data-driven machine learning algorithms, can enhance SRE tasks with new paradigms. On the other hand, SRE techniques are essential to modern A.I. applications. Regarding the first aspect, we have investigated on the design of novel A.I. approaches and machine learning techniques to facilitate three major phases in software reliability engineering: development, operation, and analysis. I will explain the challenges in each phase and describe our recently achieved methodologies. Regarding the second aspect, I will examine how the conventional SRE techniques, fault avoidance, fault removal, fault tolerance, and fault prediction, can be applied to A.I. software, and present some of our current findings. I will also discuss the ethical issues on A.I. applications, and address how we can attack these issues with SRE techniques.
+
+##### apply AI to SRE
+ - code-based : source code->code metric
+ - review-based: user behavior->user review
+ - log-based: log->trace
+- code based :code completion/suggestion , defect prediction -> RNN with attention, classification
+- review data: topic Modeling
+- log data: deep learning
+- code completion : language modeling , out of vocabulary problem: pointer mixture network, long-range dependencies: mitigated by rnn/LSTM with attention,
+- defect prediction :
+ - classifier to predict code area that have fault based on code features
+ - CNN , DP-CNN
+- Review data:
+  - apply issue prioritizing
+  - clustering for topic modeling,
+  - app issue prioritizing framework
+    - data extraction: crawling
+    - topic modeling
+    - semantic and sentiment aspect
+    - visualization
+    - issue analysis: top rank review in each topic
+    - Identifying Emerging App issue
+    - online topic Modeling
+    - Jensen-shanon Detection
+    - AI for Log-Based SRE
+  - learning to log : exception snippets, return value check pointer, 23% exception snippets are loged. 10% return-value-check snippets are logged
+    - framework of learning to log : like defect prediction
+    - contextual :
+       - structure features : error type, method, containing methods
+       - text features: identifier, comment
+       - syntactic features : setting flag,
+       - yuan et al. osdl'12
+       - framework of logging statement generation: code embedding
+       - log management : log parsing ->matrix (block id, log event)->log mining
+       - log management application :
+          - anomaly detection, deep log embedding based anomaly Detection
+          - problem identification: log parsing -> sequence vactorization -> correletion analysis -> cascading clustering
+          - cascading clustering : efficient and effective
+          - github/logpai tools for techniques discussed
+
+##### apply SRE to AI
+ - reinforcement learning: reward based: policy, action-value
+ - deep q-learning : learn action value Function
+ - deep learning are unreliable
+    - reliability and availability challenges
+    - vulnerability to data perturbations
+       - szegedy '13
+       - pei' 17
+    - DNN are employed in many safety and safety-critical situation
+    - fault avoidance : adversial example , ICLR 2018 Toward deep learning models resistent to adversial attacks
+    - machine learning fault removal
+     - high code coverage but low behavior coverage
+      - N- version deep learning programming
+    - AI fault prediction
+      - recent work focus on app level
